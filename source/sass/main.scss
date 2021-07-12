@@ -96,6 +96,26 @@ body {
 
                 background: #292929;
 
+                position: absolute;
+
+                &:nth-child(1) {
+
+                    transform: rotate(45deg);
+
+                }
+
+                &:nth-child(2) {
+
+                    opacity: 0;
+
+                }
+
+                &:nth-child(3) {
+
+                    transform: rotate(-45deg);
+
+                }
+
             }
 
         };

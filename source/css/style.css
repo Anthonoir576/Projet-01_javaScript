@@ -61,6 +61,16 @@ body {
 }
 #side-bar.active .toggle-button span {
   background: #292929;
+  position: absolute;
+}
+#side-bar.active .toggle-button span:nth-child(1) {
+  transform: rotate(45deg);
+}
+#side-bar.active .toggle-button span:nth-child(2) {
+  opacity: 0;
+}
+#side-bar.active .toggle-button span:nth-child(3) {
+  transform: rotate(-45deg);
 }
 
 .toggle-button {
