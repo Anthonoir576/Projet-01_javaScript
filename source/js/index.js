@@ -9,7 +9,7 @@
 
     function show() {
 
-
+        sideBar.classList.toggle('active');
 
     };
 

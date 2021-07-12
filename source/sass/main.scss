@@ -60,6 +60,8 @@ body {
 
     & ul {
 
+        margin-top: 5rem;
+
         & li {
 
             color: #292929;
@@ -67,6 +69,7 @@ body {
             font-size: 2.5rem;
             cursor: pointer;
 
+            
             padding: 0.7rem .9rem;
 
             &:hover {
@@ -80,7 +83,28 @@ body {
 
     }
 
-}
+    &.active {
+
+        left: 0;
+
+        & .toggle-button {
+
+            transition: 1s;
+            left: 180px;
+            
+            & span {
+
+                background: #292929;
+
+            }
+
+        };
+
+    };
+
+};
+
+
 
 .toggle-button {
 
