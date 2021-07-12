@@ -25,6 +25,7 @@ body {
 
     background-color: #383838b7;
 
+
     & h1 {
 
         text-align: center;
@@ -90,6 +91,7 @@ body {
         & .toggle-button {
 
             transition: 1s;
+            top: 26px;
             left: 180px;
             
             & span {
@@ -124,7 +126,18 @@ body {
 
 };
 
+#side-bar.active ~ .content {
 
+    background-color: #383838c0;
+
+} 
+
+.active2 {
+    
+    transition: .5s;
+    background-color: #383838cc;
+
+}
 
 .toggle-button {
 

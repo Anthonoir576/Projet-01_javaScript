@@ -57,6 +57,7 @@ body {
 }
 #side-bar.active .toggle-button {
   transition: 1s;
+  top: 26px;
   left: 180px;
 }
 #side-bar.active .toggle-button span {
@@ -71,6 +72,15 @@ body {
 }
 #side-bar.active .toggle-button span:nth-child(3) {
   transform: rotate(-45deg);
+}
+
+#side-bar.active ~ .content {
+  background-color: #383838c0;
+}
+
+.active2 {
+  transition: 0.5s;
+  background-color: #383838cc;
 }
 
 .toggle-button {
