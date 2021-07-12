@@ -38,6 +38,17 @@ body {
   transition: 0.5s ease-out;
   z-index: 4;
 }
+#side-bar ul li {
+  color: #292929;
+  list-style-type: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding: 0.7rem 0.9rem;
+}
+#side-bar ul li:hover {
+  background-color: #292929;
+  color: #fcfcfb;
+}
 
 .toggle-button {
   position: absolute;
