@@ -1,11 +1,39 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
   background-image: url("../image/screen.jpg");
-  color: white;
+  color: black;
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.content {
+  color: #09FBBA;
+  transform: 1s;
+  height: 100vh;
+  background-color: #383838b7;
+}
+.content h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  background-color: #09fbba31;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0rem 0rem 6rem 0rem;
+}
+.content p {
+  padding: 1.5rem 5rem;
+}
+
+#side-bar {
+  position: absolute;
+  width: 230px;
+  height: 100%;
+  background: #09FBBA;
 }
 
 /*# sourceMappingURL=style.css.map */
